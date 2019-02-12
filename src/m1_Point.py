@@ -33,7 +33,7 @@ class Point(object):
     def move_by(self, dx, dy):
         self.x = self.x + dx
         self.y = self.y + dy
-        self.moves + self.moves + 1
+        self.moves = self.moves + 1
         self.distance = self.distance + math.sqrt(dx ** 2 + dy ** 2)
 
     def get_number_of_moves_made(self):
@@ -66,7 +66,7 @@ class Point(object):
         return Point(x, y)
 
 def main():
-    """ Calls the   TEST   functions in this module. """ 
+    """ Calls the   TEST   functions in this module. """
     run_test_init()
     run_test_repr()
     run_test_clone()
