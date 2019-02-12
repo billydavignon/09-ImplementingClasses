@@ -66,7 +66,7 @@ class Point(object):
         return Point(x, y)
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """ Calls the   TEST   functions in this module. """ 
     run_test_init()
     run_test_repr()
     run_test_clone()
